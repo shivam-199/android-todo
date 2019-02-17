@@ -1,0 +1,33 @@
+package com.gohool.mygrocerylist.mygrocerylist.Activities;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import com.gohool.mygrocerylist.mygrocerylist.R;
+
+import org.w3c.dom.Text;
+
+public class DetailsActivity extends AppCompatActivity {
+    private TextView itemName;
+    private TextView dateAdded;
+    private int groceryId;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_details);
+
+        itemName = (TextView) findViewById(R.id.itemNameDet);
+        dateAdded = (TextView) findViewById(R.id.dateAddedDet);
+
+
+        Bundle bundle = getIntent().getExtras();
+
+        if ( bundle != null ) {
+            itemName.setText(bundle.getString("name"));
+            dateAdded.setText(bundle.getString("date"));
+            groceryId = bundle.getInt("id");
+        }
+    }
+}

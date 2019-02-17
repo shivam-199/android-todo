@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "823376312300",
+    "firebase_url": "https://finaltodo-63b2b.firebaseio.com",
+    "project_id": "finaltodo-63b2b",
+    "storage_bucket": "finaltodo-63b2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823376312300:android:094f2c0fb2b4d37b",
+        "android_client_info": {
+          "package_name": "com.example.finaltodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823376312300-dpk5ba7satcg1aulpt6mtgpadkvo7h66.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finaltodo",
+            "certificate_hash": "75b406e050c452a066b66391a30c9a88431c7a83"
+          }
+        },
+        {
+          "client_id": "823376312300-fvitek8dntuisab6dqihe79pjniqgois.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjHNxMBg0PxnlCwxO6HOdazCxlHmRCGU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823376312300-fvitek8dntuisab6dqihe79pjniqgois.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
