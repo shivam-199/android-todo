@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "2799394663",
+    "firebase_url": "https://todolists-102f7.firebaseio.com",
+    "project_id": "todolists-102f7",
+    "storage_bucket": "todolists-102f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2799394663:android:26e412117a18f721",
+        "android_client_info": {
+          "package_name": "com.example.todolists"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2799394663-hhvl8fq3ql8tuvidolf0mg2dile17jit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.todolists",
+            "certificate_hash": "75b406e050c452a066b66391a30c9a88431c7a83"
+          }
+        },
+        {
+          "client_id": "2799394663-hlejdk2fdelfc4u562dpqmmrur3ipbsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEUgAp8pPKLL1gvKfnHy9NX22g2JpF8Gg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2799394663-hlejdk2fdelfc4u562dpqmmrur3ipbsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
